@@ -1,0 +1,97 @@
+/* Apply global styles to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Apply background image to the body */
+body {
+    background-image: url(1.jpg);
+}
+
+/* Styling for the main application container */
+.app {
+    background: #DEB887;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* Styling for the main heading of the application */
+.app h1 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    border-bottom: 4px solid white;
+    padding-bottom: 30px;
+}
+
+/* Styling for the quiz container */
+.quiz {
+    padding: 20px 0;
+}
+
+/* Styling for the question heading in the quiz */
+.quiz h2 {
+    font-size: 25px;
+}
+
+/* Styling for answer option buttons */
+.btn {
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for answer option buttons */
+.btn:hover {
+    background: black;
+    color: #fff;
+    transition: all 0.3s; /* Smooth transition effect */
+}
+
+/* Styling for the "Next" button */
+#next-option {
+    background: black;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+}
+
+/* Additional styling for answer option buttons */
+.btn {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styling for correct answer buttons */
+.correct {
+    background-color: #4caf50; /* Green background for correct answers */
+    color: #fff; /* White text for correct answers */
+}
+
+/* Styling for wrong answer buttons */
+.wrong {
+    background-color: #f44336; /* Red background for wrong answers */
+    color: #fff; /* White text for wrong answers */
+}
